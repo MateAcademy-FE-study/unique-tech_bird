@@ -1,9 +1,14 @@
-* {
-	margin: 0;
-	padding: 0;
-	border: 0;
-
-}
+@import "sections/welcome";
+@import "sections/what-we-do";
+@import "sections/how-we-work";
+@import "sections/features";
+@import "sections/package";
+@import "sections/history";
+@import "sections/related-product";
+@import "sections/members";
+@import "sections/update-support";
+@import "sections/our-order";
+@import "sections/bottom";
 
 body {
     display: flex;
