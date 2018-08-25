@@ -1,0 +1,54 @@
+.history {
+	width: 100%;
+	background: url(../img/history-bg.jpg) no-repeat;
+	background-size: cover;
+	&__img {
+		padding-left: 145px;
+	}
+	&__right {
+		margin-left: 50%;
+		&-text {
+			padding-right: 145px;
+			/*margin-left: 50%;*/
+			color: #363636;
+		}
+		&-black_btn {
+			display: inline-block;
+			vertical-align: middle;
+			padding: 0;
+			margin: 0;
+			border: 0;
+			white-space: nowrap;
+			user-select: none;
+			font-family: 'SourceSansPro';
+
+			background-color: #464646;
+			color: white;
+			text-transformation: uppercase;
+			font-size: 18px;
+			border-radius: 2px;
+			padding: 20px 25px 20px 25px;
+		}
+		&-yellow_btn {
+			display: inline-block;
+			vertical-align: middle;
+			padding: 0;
+			margin: 0;
+			border: 0;
+			white-space: nowrap;
+			user-select: none;
+			font-family: 'Open Sans';
+
+			background-color: #ffc038;
+			color: #715d3a;
+			text-transformation: uppercase;
+			font-size: 14px;
+			border-radius: 2px;
+			padding: 15px 10px 15px 10px;
+		}
+	}
+
+	/* yellow_btn and black_btn must be mixins
+	set padding for buttons
+	 */
+}
