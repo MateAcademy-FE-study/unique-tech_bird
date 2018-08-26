@@ -1,0 +1,31 @@
+%btn {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0;
+      margin: 0;
+      border: 0;
+      white-space: nowrap;
+      user-select: none;
+}
+
+.btn--yellow {
+  @extend %btn;
+      font-family: $font-yellow-btn;
+      background-color: $main-yellow;
+      color: $text-color-yellow-btn;
+      text-transform: uppercase;
+      font-size: 14px;
+      border-radius: 3px;
+      padding: 15px 10px 15px 10px;
+}
+
+.btn--grey {
+  @extend %btn;
+      font-family: $font-grey-btn;
+      background-color: $main-grey;
+      color: $text-color-grey-btn;
+      text-transform: uppercase;
+      font-size: 18px;
+      border-radius: 3px;
+      padding: 20px 25px 20px 25px;
+}
